@@ -1,5 +1,4 @@
 """REST client handling, including teamtailorStream base class."""
-import time
 
 import requests
 from pathlib import Path
