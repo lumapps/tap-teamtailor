@@ -1,0 +1,10 @@
+name: "CI"
+on:
+  pull_request:
+jobs:
+  action_validator:
+    name: Github-actions-validator
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: lumapps/github-actions-validator@v2
